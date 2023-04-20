@@ -1,0 +1,17 @@
+.initial {
+  background-color: #6200ee;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial h2 {
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 23px;
+}
