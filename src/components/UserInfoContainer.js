@@ -11,7 +11,6 @@ function UserInfoContainer() {
       {companyInfo.users.map((user) => {
         return <UserCard key={user.full_name} userInfo={user} />;
       })}
-      <UserCard userInfo={companyInfo.users[0]} />
     </div>
   );
 }
