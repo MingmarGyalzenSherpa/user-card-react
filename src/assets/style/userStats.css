@@ -17,6 +17,7 @@
   height: 17px;
   padding: 2px 14px;
   border-radius: 9px;
+  text-align: center;
 }
 .userStats__status--isActive {
   background-color: #19e26a;

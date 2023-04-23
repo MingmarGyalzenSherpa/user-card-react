@@ -39,6 +39,7 @@
 }
 
 .card__user {
+  border-radius: 4px;
   min-height: 56px;
   display: flex;
   align-items: center;
@@ -54,6 +55,7 @@
   gap: 10px;
   margin-left: 10px;
   width: 210px;
+  padding: 18px 0;
 }
 
 .card__user--positionWrapper {
