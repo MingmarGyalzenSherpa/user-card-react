@@ -1,0 +1,81 @@
+.userStats {
+  /* background-color: red; */
+  min-width: 164px;
+  min-height: 47px;
+}
+
+.userStats__name {
+  font-size: 16px;
+  width: 140px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.userStats__status {
+  font-size: 11px;
+  color: white;
+  height: 17px;
+  padding: 2px 14px;
+  border-radius: 9px;
+}
+.userStats__status--isActive {
+  background-color: #19e26a;
+  width: 60px;
+}
+
+.userStats__status--isNotActive {
+  background-color: gray;
+  width: 68px;
+}
+
+.userStats__status--isBlocked {
+  background-color: #e21926;
+  width: 68px;
+}
+
+.userStats__position {
+  font-weight: 400;
+  color: #767676;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 0;
+}
+
+.userStats__progress-bar {
+  margin-top: 7px;
+  width: 104px;
+  height: 13px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.userStats__progress {
+  border-radius: 3px;
+  width: 55%;
+  height: 100%;
+  background: #19e26a;
+}
+
+.userStats__progressInfo {
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 3px;
+}
+
+.userStats__actionBtn {
+  color: white;
+  border: none;
+
+  width: 78px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+.userStats__actionBtn--invite {
+  background: #6200ee;
+}
+
+.userStats__actionBtn--remove {
+  background: #e21926;
+}

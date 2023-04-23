@@ -1,0 +1,75 @@
+.card {
+  background-color: #ffffff;
+  width: 700px;
+  display: flex;
+  gap: 10px;
+  line-height: 13px;
+}
+
+.card__title {
+  height: 47px;
+
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.card__title-item {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+}
+
+.card__title-name {
+  padding-left: 47px;
+  width: 40%;
+}
+
+.card__title-position {
+  width: 10%;
+}
+
+.card__title-status {
+  width: 15%;
+}
+.card__title-progress {
+  width: 20%;
+}
+.card__title-action {
+  width: 20%;
+}
+
+.card__user {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+/* 
+.card__user--checkBox {
+} */
+
+.card__user--nameWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  width: 210px;
+}
+
+.card__user--positionWrapper {
+  width: 60px;
+}
+
+.card__user--statusWrapper {
+  width: 95px;
+  height: 20px;
+}
+
+.card__user--progressWrapper {
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+.card__user--actionWrapper {
+  width: 100px;
+}

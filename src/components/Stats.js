@@ -1,28 +1,17 @@
 import React from "react";
 import "../assets/style/stats.css";
+import StatsTitle from "./Position";
+import StatsName from "./Name";
+import StatsStatus from "./StatsStatus";
+import ProgressBar from "./ProgressBar";
 class Stats extends React.Component {
-  stringifyTitles() {
-    let titlesString = this.props.stats.titles.toString().replace(",", "/");
-    return titlesString;
-  }
   render() {
     return (
       <div className="stats">
-        <div className="stats__name">{this.props.stats.name}</div>
-        <div
-          className={
-            this.props.stats.active
-              ? "  stats__status stats__status--isActive"
-              : " stats__status stats__status--isNotActive"
-          }
-        ></div>
-        <div className="stats__titles">{this.stringifyTitles()}</div>
-        <div className="stats__progress-bar">
-          <div
-            className="stats__progress "
-            style={{ width: this.props.stats.progress + "%" }}
-          ></div>
-        </div>
+        <StatsName name={this.props.stats.name} />
+        <StatsStatus status={this.props.stats.status} />
+        <StatsTitle titles={this.props.stats.titles} />
+        <ProgressBar progress={this.props.stats.progress} />
       </div>
     );
   }
